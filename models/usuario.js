@@ -1,6 +1,6 @@
 'use strict'
 
-var mongoClient = require("mongodb").MongoClient;
+var mongoClient = require('mongoose');
 var Schema = mongoClient.Schema;
 
 var UsuarioSchema = Schema({
